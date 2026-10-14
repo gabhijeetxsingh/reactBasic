@@ -110,7 +110,7 @@ main {
   position: relative;
   min-height: calc(100vh - var(--nav-h));
   display: grid;
-  align-items: end;
+  align-items: flex-end;
   overflow: hidden;
   color: #f5f8f7;
 }
@@ -262,7 +262,7 @@ main {
   justify-content: space-between;
   gap: 1.5rem;
   max-width: none;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .section__footer {
